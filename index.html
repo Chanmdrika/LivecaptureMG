@@ -17,6 +17,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Review</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -95,7 +96,7 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials section">
+  <section class="testimonials section" id="testimonials">
     <div class="container">
       <h2>Client Review</h2>
       <div class="review-box">
@@ -112,16 +113,87 @@
   <section class="contact section" id="contact">
     <div class="container">
       <h2>Contact Us</h2>
-      <p><strong>Business Name:</strong> LiveCaptureMG</p>
-      <p><strong>Location:</strong> Lokur, Belagavi, Karnataka</p>
-      <p><strong>Phone:</strong> +91 9876543210</p>
-      <p><strong>Email:</strong> livecapturemg@gmail.com</p>
+      <p class="contact-subtitle">Let’s make your special moments unforgettable 📸</p>
+
+      <div class="contact-info">
+        <div class="contact-card">
+          <h3>Business Details</h3>
+          <p><strong>Business Name:</strong> LiveCaptureMG</p>
+          <p><strong>Location:</strong> Lokur, Belagavi, Karnataka</p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+916361676528">+91 6361676528</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:livecapturemg@gmail.com">livecapturemg@gmail.com</a>
+          </p>
+          <p>
+            <strong>WhatsApp:</strong>
+            <a href="https://wa.me/916361676528?text=Hello%20LiveCaptureMG,%20I%20want%20to%20book%20a%20photoshoot." target="_blank">
+              Chat on WhatsApp
+            </a>
+          </p>
+          <p>
+            <strong>Instagram:</strong>
+            <a href="https://instagram.com/Himmat3030" target="_blank">
+              @Himmat3039
+            </a>
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Quick Actions</h3>
+          <div class="contact-buttons">
+            <a href="tel:+916361676528" class="contact-btn">📞 Call Now</a>
+            <a href="mailto:chimmat2000@gmail.com" class="contact-btn">📧 Send Email</a>
+            <a href="https://wa.me/916361676528?text=Hello%20LiveCaptureMG,%20I%20want%20to%20book%20a%20photoshoot." target="_blank" class="contact-btn whatsapp-btn">💬 WhatsApp</a>
+            <a href="https://maps.google.com/?q=Lokur,Belagavi,Karnataka" target="_blank" class="contact-btn">📍 View Location</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form-box">
+        <h3>Book Your Shoot</h3>
+        <form action="https://formsubmit.co/chimmat2000@gmail.com" method="POST" class="contact-form">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="New Booking Request from LiveCaptureMG Website">
+          
+          <input type="text" name="name" placeholder="Your Full Name" required>
+          <input type="tel" name="phone" placeholder="Your Phone Number" required>
+          
+          <select name="event_type" required>
+            <option value="">Select Event Type</option>
+            <option value="Wedding Photography">Wedding Photography</option>
+            <option value="Pre-Wedding Shoot">Pre-Wedding Shoot</option>
+            <option value="Engagement Photography">Engagement Photography</option>
+            <option value="Maternity Shoot">Maternity Shoot</option>
+            <option value="Other">Other</option>
+          </select>
+          
+          <textarea name="message" rows="5" placeholder="Tell us about your event..." required></textarea>
+          
+          <button type="submit" class="submit-btn">Send Booking Request</button>
+        </form>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2026 LiveCaptureMG Photography | All Rights Reserved</p>
+    <div class="footer-content">
+      <h3>LiveCaptureMG Photography</h3>
+      <p>Capturing emotions, moments, and memories forever.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="copyright">© 2026 LiveCaptureMG Photography | All Rights Reserved</p>
+    </div>
   </footer>
 
 </body>
