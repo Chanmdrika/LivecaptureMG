@@ -368,11 +368,6 @@ footer {
   text-decoration: underline;
 }
 
-.copyright {
-  font-size: 0.95rem;
-  color: #ccc;
-}
-
 /* Responsive */
 @media (max-width: 768px) {
   .navbar {
